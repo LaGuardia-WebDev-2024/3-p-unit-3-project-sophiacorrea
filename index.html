@@ -1,60 +1,318 @@
 <!--
 Requirements
-[  ] Two External Links
-[  ] Table
-[  ] Three CSS Rules
-[  ] Three Images
+[xx] Two External Links
+[ x ] Table
+[ xxx ] Three CSS Rules
+[ xxx] Three Images
 
 Select ONE Additional Feature to Add  
-[ no ] Feature 1 - Include a :hover feature
-[ no ] Feature 2 - Include at least two Internal links
+[yes] Feature 1 - Include a :hover feature
+[ yes ] Feature 2 - Include at least two Internal links
 [ no ] Feature 3 - Include a list in a tabl
-[ no ] Feature 4 - Include at least two background images in a table
+[ yes] Feature 4 - Include at least two background images in a table
 -->
 
 <!DOCTYPE html>
 <html>
+  <head>
+    <title>Project: Recipe book</title>
+    <meta charset="utf-8" />
+    <style>
+      table,
+      th,
+      td {
+        border: 3px dotted;
+        border-color: mediumpurple;
+      }
+      table {
+        border: 5px dotted;
+        border-color: LightPink;
+      }
+      #pasta-bolognese {
+        color: pink;
+      }
+      body {
+        background-color: lavender;
+        font-family: Papyrus;
+      }
+      a:hover {
+        background-color: LightPink;
+      }
+      #apples {
+        color: pink;
+      }
+      #matcha {
+        color: pink;
+      }
+    </style>
+  </head>
 
-<head>
-  <title>Project: Recipe book</title>
-  <meta charset="utf-8">
-  <style>
-  </style>
-</head>
+  <body>
+    <center>
+      <h1>Sophia's Recipe Book</h1>
 
-<body>
+      <h2>Contents:</h2>
 
-  <h1>____'s Recipe Book</h1>
+      <ol>
+        <li>
+          <a href="#pasta-bolognese">Pasta Bolognese</a>
+        </li>
+        <li><a href="#apples">Apples A La Mode</a></li>
+        <li><a href="#matcha">Iced Matcha Latte</a></li>
+      </ol>
 
-  <h2>Contents:</h2>
+      <h2 id="pasta-bolognese"><u>Pasta Bolognese</u></h2>
 
-  <ol>
-    <li><a href="?">Recipe #1</a></li>
-  </ol>
+      <ul>
+        <li>Time: 30</li>
+        <li>Serves: 5</li>
+      </ul>
 
-  <h2 id="?">Recipe #1</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Ingredients</th>
+            <th>Quantity</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              <img
+                src="https://meriwetherfarms.com/cdn/shop/files/Image_1000x.png?v=1713390963"
+                width="100"
+              />Lean Ground Beef
+            </td>
+            <td>1 lb</td>
+          </tr>
+          <tr>
+            <td>
+              <img
+                src="https://pacificcoastproducers.com/wp-content/uploads/2016/06/TOM-Sauce-1024x1024.png"
+                width="100"
+              />
+              Tomato Puree
+            </td>
+            <td>24.5 oz</td>
+          </tr>
+          <tr>
+            <td>
+              <img
+                src="https://mykosherfish.com/wp-content/uploads/2023/01/Olive-Oil-Product-Image-630x630.webp"
+                width="100"
+              />Olive Oil
+            </td>
+            <td>1 tbs</td>
+          </tr>
+          <tr>
+            <td>
+              <img
+                src="https://images.ctfassets.net/58gcftnkb1ht/5tcSgjriucoPJSHOM8yvR2/b34c35a62bb556aa893d1bde36b4178d/Red_Onion.png?h=800&fl=progressive&q=50"
+                width="100"
+              />Onion
+            </td>
+            <td>1</td>
+          </tr>
+          <tr>
+            <td>
+              <img
+                src="https://cdn.apartmenttherapy.info/image/upload/f_auto,q_auto:eco,c_fill,g_center,w_730,h_913/k%2FPhoto%2FRecipes%2F2019-10-five-pasta-shapes%2FPastaFour"
+                width="100"
+              />
+              Spaghetti
+            </td>
+            <td>12 oz</td>
+          </tr>
+        </tbody>
+      </table>
 
-  <ul>
-    <li>Time: _</li>
-    <li>Serves: _</li>
-  </ul>
+      <p>
+        <strong>Steps:</strong><br />
+        Add salt, pepper, and onion powder to ground beef <br />
+        Cook ground beef until browned <br />
+        Add tomato puree to the ground beef and mix<br />
+        In a seperate pot, cook spaghetti noodles<br />
+        Once finished, add spaghetti noodles to tomato beef mixture and mix<br />
+      </p>
 
-  <table>
-    <thead>
-      <tr>
-        <th>Ingredients</th>
-        <th>Quantity</th>
-      </tr>
-    </thead>
-    <tbody>
-    </tbody>
-  </table>
+      <p>
+        <em
+          >Source:
+          <a
+            href="https://www.recipetineats.com/one-pot-pasta-bolognese/#wprm-recipe-container-50859"
+            >Recipe Tin Eats</a
+          ></em
+        >
+      </p>
 
-  <p><strong>Step 1:</strong> Do something.
-  </p>
+      <h2 id="apples"><u>Apples A La Mode</u></h2>
 
-  <p><em>Source: <a href="?">Some recipes websites</a></em></p>
+      <ul>
+        <li>Time: 18</li>
+        <li>Serves: 4</li>
+      </ul>
 
-</body>
+      <table>
+        <thead>
+          <tr>
+            <th>Ingredients</th>
+            <th>Quantity</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              <img
+                src="https://149835243.v2.pressablecdn.com/wp-content/uploads/2022/08/GD-5003.png"
+                width="100"
+              />Golden Delicious Apples
+            </td>
+            <td>3</td>
+          </tr>
+          <tr>
+            <td>
+              <img
+                src="https://i0.wp.com/vsoflavors.com/wp-content/uploads/2021/05/brown-sugar.png?fit=300%2C300&ssl=1"
+                width="100"
+              />
+              Brown Sugar
+            </td>
+            <td>3 tbs</td>
+          </tr>
+          <tr>
+            <td>
+              <img
+                src="https://www.benjerry.com/files/live/sites/systemsite/files/US%20and%20Global%20Assets/Flavors/Product%20Assets/US/Vanilla%20Ice%20Cream/web_Tower_Vanilla_RGB_HR2_60M.png"
+                width="100"
+              />Vanilla Icecream
+            </td>
+            <td>1 pint</td>
+          </tr>
+          <tr>
+            <td>
+              <img
+                src="https://cdn.glitch.global/b023600d-7949-4bce-b1a3-0ce2ded86b3d/a01465e0-1f8a-4284-83ea-bf18241d7f0d.image.png?v=1729699486508"
+                width="100"
+              />Whipped Cream
+            </td>
+            <td>for topping</td>
+          </tr>
+          <tr>
+            <td>
+              <img
+                src="https://cdn.glitch.global/b023600d-7949-4bce-b1a3-0ce2ded86b3d/cd3c6890-4290-487c-81c4-3083e0924efc.image.png?v=1729699545611"
+                width="100"
+              />
+              Cinnamon
+            </td>
+            <td>1 tsp</td>
+          </tr>
+        </tbody>
+      </table>
+      <p>
+        <strong>Steps:</strong><br />
+        Heat a skillet over medium to medium-high heat.<br />Add the ginger and
+        apples to warm butter, squeeze a little lemon juice over the pan and
+        saute 4 to 5 minutes. <br />
+        Add brown sugar, cinnamon, nutmeg to the apples and cook another 2
+        minutes. <br />Spoon apples into dessert dishes and top with ice cream
+        and whipped cream. <br />Garnish whipped cream with a pinch more
+        cinnamon or nutmeg.
+      </p>
+      <p>
+        <em
+          >Source:
+          <a
+            href="https://www.foodnetwork.com/recipes/rachael-ray/apples-no-pie-a-la-mode-recipe-1916520"
+            >Food Network</a
+          ></em
+        >
+      </p>
+      <h2 id="matcha"><u>Iced Matcha Latte</u></h2>
 
+      <ul>
+        <li>Time: 5</li>
+        <li>Serves: 2</li>
+      </ul>
+
+      <table>
+        <thead>
+          <tr>
+            <th>Ingredients</th>
+            <th>Quantity</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              <img
+                src="https://cdn.glitch.global/b023600d-7949-4bce-b1a3-0ce2ded86b3d/1303c8dd-3901-4980-8656-78b27488dc93.image.png?v=1729699871518"
+                width="100"
+              />Matcha Powder
+            </td>
+            <td>2 tsp</td>
+          </tr>
+          <tr>
+            <td>
+              <img
+                src="https://d1pjg4o0tbonat.cloudfront.net/content/dam/comfee-aem/global/products/small-appliances/glass-electric-tea-kettle-hot-water-boiler/kv3.png/jcr:content/renditions/cq5dam.compression.png"
+                width="100"
+              />
+              Hot Water
+            </td>
+            <td>1-2 tbs</td>
+          </tr>
+          <tr>
+            <td>
+              <img
+                src="https://cdn.glitch.global/b023600d-7949-4bce-b1a3-0ce2ded86b3d/557ddd55-e602-48ea-a5f2-d8e281a69464.image.png?v=1729699913027"
+                width="100"
+              />Warm Water
+            </td>
+            <td>1 cup</td>
+          </tr>
+          <tr>
+            <td>
+              <img
+                src="https://cdn.glitch.global/b023600d-7949-4bce-b1a3-0ce2ded86b3d/0925fa37-50a5-4d09-95fb-44b4766188f5.image.png?v=1729699793977"
+                width="100"
+              />Milk
+            </td>
+            <td>1 cup</td>
+          </tr>
+          <tr>
+            <td>
+              <img
+                src="https://cdn.glitch.global/b023600d-7949-4bce-b1a3-0ce2ded86b3d/d6798dff-fd71-463e-81b2-1d4a42d12b74.image.png?v=1729699977999"
+                width="100"
+              />
+              Ice
+            </td>
+            <td>6 cubes</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <p>
+        <strong>Steps:</strong><br />
+        In a measuring cup or bowl, add the matcha powder. Pour in the 1 to 2
+        tablespoons of hot water and whisk until the matcha has fully
+        incorporated into the water. <br />
+        Pour in the remaining 1 cup of water and mix. Transfer to the fridge or
+        freezer to chill for about 15 minutes. <br />
+        Fill two glasses full of ice and add your milk of choice so the glass is
+        about 3/4 of the way full.x<br />
+        Pour in the chilled matcha and stir.<br />
+      </p>
+
+      <p>
+        <em
+          >Source:
+          <a href="https://www.acozykitchen.com/matcha-iced-latte"
+            >A Cozy Kitchen</a
+          ></em
+        >
+      </p>
+    </center>
+  </body>
 </html>
